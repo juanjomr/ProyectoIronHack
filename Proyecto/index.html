@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<base href="/">
+	<title>Proyect</title>
+	<link rel="shortcut icon" href="img/icons/noria.ico">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+	<!-- header -->
+	<header-directive></header-directive>
+
+	<!-- home -->
+	<ng-view></ng-view>		
+	
+	<!-- footer -->
+	<footer-directive></footer-directive>
+
+</body>
+<script src="Bootstrap/js/jquery.js"></script>
+<script src="Bootstrap/js/bootstrap.min.js"></script>
+<script src="AngularJS/angular.min.js"></script>
+<script src="AngularJS/angular-resource.min.js"></script>
+<script src="AngularJS/angular-route.min.js"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="AngularJS/ng-map.min.js"></script>`
+
+<script src="app.js"></script>
+</html>

@@ -1,0 +1,29 @@
+<!-- Where -->
+  <!-- Navbar -->
+   <navbar-directive></navbar-directive>
+
+  <!-- Bodywhere -->
+   <div class="container">
+      <div class="row">
+         <div class="col-md-4 listpark">
+                  <img src="img/font/parque.jpg" class="imapark">
+                  <ul park-directive class="listpark"></ul> 
+         </div>
+         
+         <div class="col-md-8 googlemaps">
+         <div class="backicon">
+            <a ng-href="showWhere" class="icon">
+               <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><img src="img/font/volver.jpg" class="ifont">
+            </a>
+         </div>
+            <ng-map center="31.0878286,12.1572475" zoom="2">
+               <div ng-repeat="park in parks | filter: query | filter:name">
+                  <marker position="{{park.long}},{{park.lat}}" title={{park.markertxt}} icon="img/icons/noria.png"></marker>
+               </div>
+            </ng-map>
+         </div>
+         </div>        
+      </div>
+   </div>
+
+

@@ -1,0 +1,69 @@
+[
+	{
+		"id":1,
+		"name":"MUNDIAL",
+		"text":"Accede a los parques de todo el MUNDO",
+		"image":"",
+		"markertxt":"Aqui parque",
+		"long":31.0878286,
+		"lat":12.1572475,
+		"zoom":3,
+		"refclick":"query = {}"
+
+	},{
+		"id":2,
+		"name":"ÁFRICA",
+		"text":"Accede a los parques de toda ÁFRICA",
+		"image":"img/continent/world.jpg",
+		"markertxt":"Aqui parque",
+		"long":31.0878286,
+		"lat":12.1572475,
+		"zoom":3,
+		"refclick":"query = {continent: 'África'}"		
+	},{
+		"id":3,
+		"name":"AMÉRICA",
+		"text":"Accede a los parques de toda AMÉRICA",
+		"image":"img/continent/world.jpg",
+		"markertxt":"Aqui parque",
+		"long":31.0878286,
+		"lat":12.1572475,
+		"zoom":3,
+		"refclick":"query = {continent: 'América'}"		
+	},{
+		"id":4,
+		"name":"ASIA",
+		"text":"Accede a los parques de toda ASIA",
+		"image":"img/continent/world.jpg",
+		"markertxt":"Aqui parque",
+		"long":31.0878286,
+		"lat":12.1572475,
+		"zoom":3,
+		"refclick":"query = {continent: 'Asia'}"		
+	},{
+		"id":5,
+		"name":"EUROPA",
+		"text":"Accede a los parques de toda EUROPA",
+		"image":"img/continent/world.jpg",
+		"markertxt":"Aqui parque",
+		"long":31.0878286,
+		"lat":12.1572475,
+		"zoom":3,
+		"refclick":"query = {continent: 'Europa'}"	
+	},{
+		"id":6,
+		"name":"OCEANÍA",
+		"text":"Accede a los parques de toda OCEANÍA",
+		"image":"img/continent/world.jpg",
+		"markertxt":"Aqui parque",
+		"long":31.0878286,
+		"lat":12.1572475,
+		"zoom":3,
+		"refclick":"query = {continent: 'Oceanía'}"		
+	}
+]
+
+
+
+
+

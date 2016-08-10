@@ -1,0 +1,36 @@
+	<!-- Top 5 -->	
+	<div class="container parkstop">
+		<div class="col-md-6 toptxt">
+			<div>
+				<img ng-src="{{park.nameimg}}">
+				<p>{{park.description}}</p>
+			</div>
+			<div class="divdate">
+				<h4><span class="glyphicon glyphicon-info-sign"></span> Tipo: {{park.type}}</h4>
+				<h4><span class="glyphicon glyphicon-calendar"></span> Año de apertura: {{park.opyear}}</h4>
+				<h4><span class="glyphicon glyphicon-link"></span> Web: {{park.web}}</h4>
+				<h4><span class="glyphicon glyphicon-map-marker"></span> Ubicación:</h4>
+					<div class="listmarg">
+						<ul class="list-unstyled">
+							<li>Continente: {{park.continent}}</li>
+							<li>País: {{park.country}}</li>
+							<li>Ciudad: {{park.city}}</li>
+							<li>Dirección: {{park.address}}</li>
+						</ul>
+					</div>
+			</div>
+			<div class="maptop">
+				<ng-map center="{{park.long}},{{park.lat}}" zoom="{{park.zoom}}">
+                    <marker position="{{park.long}},{{park.lat}}" title={{park.markertxt}} icon="img/icons/noria.png"></marker>
+			</div>
+		</div>
+		<div class="col-md-6 topimg">
+			<div>
+				<a ng-href="showWhere" class="icon">
+				<span class="glyphicon glyphicon-chevron-left"></span><img src="img/font/volver.jpg" class="ifont">
+				</a>
+			</div>
+			<h3><span class="glyphicon glyphicon-camera"></span></h3>
+			<imgpark-directive ng-repeat="image in park.images"></imgpark-directive>
+		</div>
+	</div>

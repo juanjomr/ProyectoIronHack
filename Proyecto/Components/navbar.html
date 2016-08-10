@@ -1,0 +1,31 @@
+  <!-- Navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+        <ul class="nav nav-pills navmaps">
+          <li><a href="#"  ng-click="query = {}">Mundial <span class="sr-only">(current)</span></a></li>
+          <li><a href="#" ng-click="query = {continent: 'África'}">África</a></li>
+          <li><a href="#" ng-click="query = {continent: 'América del Norte'}">América del Norte</a></li>
+          <li><a href="#" ng-click="query = {continent: 'América del Sur'}">América del Sur</a></li>
+          <li><a href="#" ng-click="query = {continent: 'Asia'}">Asia</a></li>
+          <li><a href="#" ng-click="query = {continent: 'Europa'}">Europa</a></li>
+          <li><a href="#" ng-click="query = {continent: 'Oceanía'}">Oceanía</a></li>
+          <form class="navbar-form" role="search">
+            <div class="form-group searnav">
+               <input type="text" class="form-control" placeholder="Buscar" ng-model="name">          
+               <button type="submit" class="btn btn-default">Buscar</button>
+            </div>
+          </form>
+        </ul>        
+      </div>
+    </div>
+  </nav>

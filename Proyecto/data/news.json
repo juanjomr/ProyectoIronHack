@@ -1,0 +1,27 @@
+[
+	{
+		"id":1,
+		"img":"img/novedades/01.jpg",
+		"web":"https://www.sixflags.com/national/vr/overview"	
+	},{
+		"id":2,
+		"img":"img/novedades/02.jpg",
+		"web":"https://www.universalorlando.com/email-signup/skull-island-reign-of-kong.aspx"
+	},{
+		"id":3,
+		"img":"img/novedades/03.jpg",
+		"web":"https://www.usj.co.jp/e/jurassic-park-the-flying-dinosaur/"	
+	},{
+		"id":4,
+		"img":"img/novedades/04.jpg",
+		"web":"https://www.portaventuraworld.com/ferrari-land"
+	},{
+		"id":5,
+		"img":"img/novedades/05.jpg",
+		"web":"http://www.universalstudioshollywood.com/harrypotter/"	
+	},{
+		"id":6,
+		"img":"img/novedades/06.jpg",
+		"web":"https://disneyworld.disney.go.com/attractions/epcot/frozen-ever-after/"
+	}
+]

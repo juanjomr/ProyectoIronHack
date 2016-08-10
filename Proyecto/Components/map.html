@@ -1,0 +1,4 @@
+<ng-map center="{{continent.long}},{{continent.lat}}" zoom="{{continent.zoom}}">
+    <div ng-repeat="park in parks">
+        <marker position="{{long}},{{lat}}" title={{markertxt}}></marker>
+    </div>
